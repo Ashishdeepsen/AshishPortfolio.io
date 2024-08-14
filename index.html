@@ -6,6 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Project</title>
     <style>
+        .btnbtn-custom{
+            background-color: blueviolet;
+
+        }
+        #contact{
+            background-color: #a1c5be;
+        }
         .img {
             border-top: 2px solid rgba(59, 137, 220, 0.899);
             border-bottom: 2px solid rgba(8, 230, 41, 0.899);
@@ -22,13 +29,16 @@
         .door {
             font-family: 'Lobster', cursive ;
         }
+        .sty{
+            color: black;
+        }
 
         .center{
             display: inline-block;
       margin-left: 290px;
     margin-top: -60px;
     width: 573px;
-    height: 217px;
+    height: 385px;
     border: 1px solid yellowgreen;
     border-radius: 6px;
     padding-right: 26px;
@@ -172,8 +182,9 @@
                     </tr>
                     <tr>
                         <td width="40%">
-                            <a href = "ASHIIPORT\image">
-                            <img src="https://media.licdn.com/dms/image/D4D03AQE_HBOzGmoXig/profile-displayphoto-shrink_400_400/0/1681307794448?e=1694649600&v=beta&t=KJ8CtScsFaVbOTPDjyk53UJr6eGHgxCDgqFdUN30Xbs" width="110%" height="550px" class="img">
+                            <a href = "\ashish.jpg">
+                            <img src="./image//ashish.jpg" width="110%" height="550px" class="img">
+                            
                             </a>
                         </td>
 
@@ -355,7 +366,12 @@
     <section id="contact" class="py-5">
         <div class="container">
             <div class="text-center mb-5">
-                <h1 class="contact-title">Contact</h1>
+                
+                <font class="sty door" size="17"  >
+                    Contact
+                   
+                    <hr color="#4CAF50" width="80">
+                </font>
                 <hr class="w-50 mx-auto">
             </div>
             <div class="row justify-content-center">
@@ -377,7 +393,7 @@
                             <label for="message" class="form-label">Message</label>
                             <textarea class="form-control" id="message" rows="5" placeholder="Please type your message" required></textarea>
                         </div>
-                        <button type="submit" class="btn btn-custom">Submit</button>
+                        <button type="submit" class="btn  btn-secondary" >Submit</button>
                     </form>
                 </div>
             </div>
